@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'app_bar/appBarLayout.dart';
-import 'body.dart';
+import 'body/body.dart';
 
 mainApp() {
   var layoutDesign = Scaffold(
     appBar: appBar,
-    body: formattedBodyImage,
-    backgroundColor: Colors.grey.shade700,
+    body: content,
+    //backgroundColor: Colors.grey.shade700,
   ); // design layout
 
   var mainContainer = MaterialApp(
