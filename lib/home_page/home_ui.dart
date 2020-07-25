@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_statusbarcolor/flutter_statusbarcolor.dart';
 import 'app_bar/appBarLayout.dart';
 import 'body/body.dart';
 
 mainApp() {
+  FlutterStatusbarcolor.setStatusBarColor(Colors.pink);
+
   var layoutDesign = Scaffold(
     appBar: appBar,
     body: content,
