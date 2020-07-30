@@ -8,7 +8,7 @@ mainApp() {
 
   var layoutDesign = Scaffold(
     appBar: appBar,
-    body: content,
+    body: Center(child: content),
     //backgroundColor: Colors.grey.shade700,
   ); // design layout
 

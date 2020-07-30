@@ -16,9 +16,4 @@ var columnText = Center(
   ),
 );
 
-var columnContainerForImage = Container(
-  child: columnImage,
-  height: 100,
-  width: 100,
-  decoration: columnDecoration,
-);
+var columnContainerForImage = columnImage;

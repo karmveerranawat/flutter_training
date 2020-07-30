@@ -5,8 +5,9 @@ main() {
   runApp(HotReload());
 }
 
+@override
 class HotReload extends StatelessWidget {
-  build(BuildContext structureState) {
+  Widget build(BuildContext structureState) {
     return mainApp();
   }
 }
